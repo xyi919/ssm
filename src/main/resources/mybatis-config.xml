@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--开启驼峰命名-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true" />
+    </settings>
+
+
+
+
+
+    <mappers >
+        <mapper resource="mappers/MenusMapper.xml"></mapper>
+        <mapper resource="mappers/RoleMapper.xml"></mapper>
+        <mapper resource="mappers/AdminMapper.xml"></mapper>
+    <!--   <package name="src/main/resources/mappers"/>-->
+    </mappers>
+
+
+
+</configuration>
